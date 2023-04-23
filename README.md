@@ -76,6 +76,10 @@ Now Upload the Images inside `image-data-inference`
 Another Example
 <img src = "./streamlit-output/inference-2.png">
 
+# Note
+The Streamlit application also has the capability to audibly identify the type of banknote.
+
+
 
 
 
