@@ -20,6 +20,23 @@ The model achieved an accuracy of 91% on both test and validation data. The conf
 
 <img src = "./evaluation-images/confusion-matrix.png">
 
+
+A confusion matrix is a table that is often used to evaluate the performance of a classification model. The matrix compares the actual class labels of the test data with the predicted labels given by the model.
+
+A confusion matrix typically has rows representing the true labels and columns representing the predicted labels. Each element of the matrix represents the count or number of instances that belong to a particular combination of true and predicted labels.
+
+In the example matrix given above, the true labels are: fifty, five, fivehundred, hundred, ten, thousand, twenty. The predicted labels are the same.
+
+The diagonal of the matrix shows the number of true positives (i.e., correct predictions) for each class, and the off-diagonal elements show the number of false positives (i.e., incorrect predictions) for each class.
+
+For example, the element in the first row and first column represents the number of instances that truly belong to the class 'fifty' and were predicted as 'fifty' by the model. In this case, the value is 66. 
+
+Again we can see that there are 5 instances of 'hundred' that were misclassified as 'fivehundred' by the model. 
+
+By analyzing the confusion matrix, we can evaluate the performance of the model and identify the areas where the model is making mistakes. 
+
+For example, in the above matrix, we can see that the model is confusing the classes and has misclassified 14 instances of 10 as 500. We can use this information to improve the model's performance, for example by increasing the amount of training data or tweaking the model's hyperparameters.
+
 ### Training and Validation Accuracy
 <img src = "./evaluation-images/train_val_acc.png">
 
