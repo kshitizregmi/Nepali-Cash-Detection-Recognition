@@ -16,7 +16,17 @@ The dataset used in this project consists of images of Nepali cash denominations
 Transfer learning was used to train the model using the InceptionV3 architecture. The model was trained on the dataset for 10 epochs with a batch size of 64. The model achieved an accuracy of 91% on both test and validation data.
 
 ## Results
-The model achieved an accuracy of 91% on both test and validation data. The confusion matrix for the model is shown below:
+The model achieved an accuracy of 92% on both validation data and 93.03% on validation data. 
+
+
+Test Data Performance Evaluation:
+* Precision = 93.03%
+* Recall = 93.03%
+* F1-score = 93.03%
+
+
+
+The confusion matrix for the model on test data is shown below:
 
 <img src = "./evaluation-images/confusion-matrix.png">
 
