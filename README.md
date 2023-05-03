@@ -115,3 +115,13 @@ The Streamlit application also has the capability to audibly identify the type o
 
 
 
+## How overfitting is handled?
+Overfitting is a common problem in image classification tasks, where the model learns to fit the training data too well, resulting in poor generalization on unseen data. To avoid overfitting, there are several techniques are used:
+
+* Data Augmentation: This involves generating new training data by applying transformations such as rotation, zoom, shift, etc. to the original images. This increases the diversity of the training data and helps the model learn more robust features.
+
+* Dropout: This is a regularization technique that randomly drops out a fraction of neurons in the network during training, which helps prevent the network from relying too heavily on any single feature.
+
+* Early Stopping: This involves monitoring the validation loss during training and stopping the training process when the validation loss starts to increase. This prevents the model from overfitting by stopping training before it starts to memorize the training data.
+
+* Transfer Learning: This involves using a pre-trained model as a starting point and fine-tuning it on the new dataset. This can be an effective way to avoid overfitting, as the pre-trained model has already learned general features that can be useful for the new task.
